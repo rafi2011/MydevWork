@@ -1,0 +1,136 @@
+body {
+    color: #445877;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #353839;
+}
+#about {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+#aboutMeP {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    border-right: 2px solid blue;
+    padding-right: 5px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: x-large;
+    color: rgba(146, 204, 206, 2);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+header h1 {
+    background-color: rgba(146, 204, 206, 2);
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    padding: auto;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--secondary);
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
+    background-repeat: no-repeat;
+    font-size: 1.4rem;
+}
+.hero-banner{
+    background-image: url("Image/images/02-hero-bg.jpg");
+    opacity: 1;
+    
+    
+    height: 250px;
+    background-size: 1600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;   
+}
+#title{
+
+    background-color: rgba(146, 204, 206, 2);
+    width: 300px;
+    height: 60px;
+    text-align: right;
+    padding: 10px;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+
+main {
+    background: whitesmoke;
+    
+}
+h2 {
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+
+
+p {
+    color: #445877;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.surf-report {
+    background-image: ("Image\images\02-portfolio-4.jpg");
+    }
+
+.led-wall {
+    background-image: ("Image\images\02-portfolio-1.jpg");
+
+}
+
+#work {
+    display: flex;
+    
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
